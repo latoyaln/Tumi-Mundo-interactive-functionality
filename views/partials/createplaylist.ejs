@@ -1,0 +1,39 @@
+<h1>Create a new Playlist</h1>
+<form method="post">
+    <div>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+    </div>
+    <div>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+    </div>
+    <button type="submit">Create Playlist</button>
+</form>
+  <!-- Pop Up om een playlist te maken -->
+  <div id="createPlaylistPop" class="popup-create">
+    <!-- Modal content -->
+    <div class="popup-create-content">
+        <button class="close-create" aria-label="Close">
+            <span>&times;</span>
+            Close
+        </button>
+        <h2>Create a New Playlist</h2>
+        <form action="/create-playlist" method="POST">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            <br>
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+            <br>
+            <label for="story">Select Story:</label>
+            <select id="story" name="story">
+                <% stories.forEach(function(story) { %>
+                    <option value="<%= story.id %>"><%= story.title %></option>
+                <% }); %>
+            </select>
+            <br>
+            <button type="submit">Create Playlist</button>
+        </form>
+    </div>
+  </div>
