@@ -21,18 +21,32 @@ In deze repository ben ik gaan werken aan een POST functie waarbij de eindgebrui
 
 (https://tumi-mundo-interactive-functionality.onrender.com/)
 
-## Gebruik
-<!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
-
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
+Deze site is gemaakt door Node EJS en Express.
+Bij [bouwen](https://github.com/latoyaln/tumi-mundo-server-side-website/wiki/3.-Bouwen) is te zien hoe alles in elkaar zit
 
 ## Installatie
-<!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
+* Node installatie - Via [Nodejs.org](https://nodejs.org/en/download/) heb ik eerst Node js gedownload.
+* NPM installatie
 
+1. Om in de repository te werken en aanpassingen te maken moet je node.js downloaden.
+2. Clone of download deze respository.
+3. Open hem in je code-editor (Visal Studio Code).
+4. Open de terminal en typ npm install.
+5. Daarna kun je door middel van npm start een localhost krijgen met een link waar je de live site kunt bekijken.
+6. Het live zetten van je project kan met behulp van cyclic.
+
+## Gebruik
+Je komt terecht op de lessons pagina vanuit de lessons abbonement kan je klikken op 1 specifieke playlist waar je daarna naar toe wordt gestuurd. Vanaf de lessons kan je ook naar 'show all' lessons bij deze show all page krijg je een overzicht van alle lessons waar je kan zoeken in de zoekbalk.
 
 ## Bronnen
+Dit zijn de bronnen die ik voor dit project heb gebruikt:
 
+* [Directus](https://docs.directus.io/getting-started/introduction.html) (Om meer te leren over directus en filteren)
+* [Figma](figma.com) (Voor de styling en de schetsen)
+* [Render](render.com) (Voor het live zetten van de site)
+* [Node js](https://nodejs.org/en/download/) (Voor het installeren van Node js)
+  
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
